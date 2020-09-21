@@ -144,3 +144,9 @@ button a{
     grid-column-start: span 1;
     grid-column-end: auto;
 }
+
+@media screen and (max-width:1024px){
+    .col-6 {
+        grid-column-start: span 12;
+    }
+}
