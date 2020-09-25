@@ -1,0 +1,265 @@
+body{
+  display: block;
+  background: #FFFFFF;
+  margin: 5% 10%;
+  z-index: 0;
+  min-height: 100%;
+  position: relative;
+}
+
+nav a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 121.1%;
+    margin-right: 8.07%;
+    
+    color: #000000;
+    text-decoration: none;
+}
+nav .col-8{
+    padding-top:40px;
+}
+
+a{
+    text-decoration: none;
+}
+h2{
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 128.8%;
+    text-align: left;
+    color: #000000;
+    margin: 40px 0px;
+    text-decoration: none;
+}
+
+h1{
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 121.1%;
+    text-align: left;
+    color: #000000;
+    margin: 40px 0px;
+}
+
+p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+}
+
+.left{
+    text-align: left;
+}
+
+.imgcenter{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#left p{
+    text-align: left;
+}
+.quote{
+    margin-bottom: 250px;
+}
+
+.steps p{
+    margin-bottom: 60px;
+}
+/* slide show */
+
+.slideshow-container {
+  position: relative;
+}
+.mySlides {
+  display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.slidertext{
+    background: #F8F8F8;
+    width: 600px;
+    height: 375px;
+}
+
+.slidertext h2{
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 128.8%;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 68px;
+    margin-top: 0px;
+    padding-left: 65px;
+}
+
+.slidertext p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 214px;
+    padding-left: 65px;
+}
+
+/* footer */
+
+footer h1{
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 136%;
+    text-align: left;
+    color: #0101FD;
+}
+
+footer p{
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 158.1%;
+    text-align: left;
+    color: #0101FD;
+}
+
+button{
+    background: #FFFFFF;
+    border: 2px solid #0101FD;
+    box-sizing: border-box;
+    width: 550px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+button a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #0101FD;
+    text-decoration: none;
+}
+
+footer img{
+    margin-right: 15px;
+}
+
+footer{
+    margin-bottom: 100px;
+}
+
+#space{
+    margin: 150px 0px;
+}
+
+#titel{
+    margin-top: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 40px;
+}
+
+.col-12 {
+    position: relative;
+    grid-column-start: span 12;
+    grid-column-end: auto;
+}
+.col-11 {
+    position: relative;
+    grid-column-start: span 11;
+    grid-column-end: auto;
+}
+.col-10 {
+    position: relative;
+    grid-column-start: span 10;
+    grid-column-end: auto;
+}
+.col-9 {
+    position: relative;
+    grid-column-start: span 9;
+    grid-column-end: auto;
+}
+.col-8 {
+    position: relative;
+    grid-column-start: span 8;
+    grid-column-end: auto;
+}
+.col-7 {
+    position: relative;
+    grid-column-start: span 7;
+    grid-column-end: auto;
+}
+.col-6 {
+    position: relative;
+    grid-column-start: span 6;
+    grid-column-end: auto;
+}
+.col-5 {
+    position: relative;
+    grid-column-start: span 5;
+    grid-column-end: auto;
+}
+.col-4 {
+    position: relative;
+    grid-column-start: span 4;
+    grid-column-end: auto;
+}
+.col-3 {
+    position: relative;
+    grid-column-start: span 3;
+    grid-column-end: auto;
+}
+.col-2 {
+    position: relative;
+    grid-column-start: span 2;
+    grid-column-end: auto;
+}
+.col-1 {
+    position: relative;
+    grid-column-start: span 1;
+    grid-column-end: auto;
+}
+
+@media screen and (max-width:1024px){
+    .col-6 {
+        grid-column-start: span 12;
+    }
+}
