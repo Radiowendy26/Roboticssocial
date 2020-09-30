@@ -11,7 +11,7 @@ nav a {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 20px; 
     line-height: 121.1%;
     margin-right: 8.07%;
     
@@ -259,7 +259,33 @@ footer{
 }
 
 @media screen and (max-width:1024px){
-    .col-6 {
-        grid-column-start: span 12;
+    .col-8 {
+        grid-column-start: span 10;
     }
+    .col-6 {
+        grid-column-start: span 10;
+    }
+    .col-4 {
+        grid-column-start: span 10;
+    }
+    footer h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    footer p{  
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    button{   
+        width: 400px;
+        height: 80px;
+    }
+
+    button a{  
+        font-size: 20px;
+        line-height: 24px;
+    }
+
 }
